@@ -1,5 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #292828;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 600px;
+  color: #FFF;
+  padding: 1rem;
+  background: #2F3237;
+  border-radius: 5px;
+}
+
+.wrapper h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#result {
+  width: 100%;
+  outline: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  line-height: 1rem;
+  background-color: #292828;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+input[type="number"] {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  padding: 11px 85px;
+  background: #555555;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.btn--green {
+  background-color: #1CB15B;
+}
+
+.btn--green:hover {
+  opacity: .7;
+}
+
+.btn--blue {
+  background-color: #3498DB;
+}
+
+.btn--blue:hover {
+  opacity: .7;
+}
+
+input[type="checkbox"] {
+  width: 21px;
+  height: 21px;
+}
+
+label {
+  font-size: 1.3rem;
 }

@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Password Generator</title>
-</head>
-<body>
-  
-  <script src="./assets/js/main.js"></script>
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f223593715.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Gerador de senhas</h2>
+      <input id="result" type="text" readonly value="bb4r4v4rw3" />
+      <div class="content">
+        <label>Tamanho </label>
+        <input id="passLenght" type="number" min="4" max="20" value="8" />
+      </div>
+
+      <div class="box">
+        <div class="content">
+          <label>Letra maiúscula </label>
+          <input id="upperCase" checked type="checkbox" />
+        </div>
+
+        <div class="content">
+          <label> Letra minúscula </label>
+          <input id="lowerCase" checked type="checkbox" />
+        </div>
+
+        <div class="content">
+          <label> Números </label>
+          <input id="number" checked type="checkbox" />
+        </div>
+
+        <div class="content">
+          <label> Símbolos </label>
+          <input id="symbol" checked type="checkbox" />
+        </div>
+      </div>
+
+      <div class="content">
+        <button id="btnGenerate" class="btn btn--green">
+          <i class="fas fa-key"></i>Gerar
+        </button>
+
+        <button id="btnCopy" class="btn btn--blue">
+          <i class="far fa-copy"></i>Copiar
+        </button>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
