@@ -1,7 +1,7 @@
 # Password Generator
 
 <h1 align="center">
-    <img alt="Gif of the finished application Password Generator" title="gif" src="" />
+    <img alt="Gif of the finished application Password Generator" title="gif" src="./assets/img/password-generator.gif" />
 </h1>
 
 <br>
@@ -42,12 +42,7 @@ What was developed:
 <br />
 
 ## Image from the final application Password Generator:
- <img alt="Print Portfolio" title=" Landing page" src="" />
-
- <br />
-
- <p>Application Password Generator Mobile</p>
-<img alt="Print Portfolio" title=" Landing page" src="" />
+ <img alt="Print Portfolio" title=" Landing page" src="./assets/img/password-generator.gif" />
 
 ## 🧪 Tools
 
