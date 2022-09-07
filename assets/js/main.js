@@ -73,5 +73,5 @@ const generatePassword = (lower, upper, number, symbol, length) => {
 
 btnCopy.addEventListener("click", () => {
   navigator.clipboard.writeText(result.value);
-  alert("texto copiado" + result.value);
+  alert("Texto copiado " + result.value);
 });
