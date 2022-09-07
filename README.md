@@ -11,12 +11,12 @@
 Build a Password Generator, this tool will help to generate random password 
 with 8 - 20 length, using HTML, CSS and programming language Javascript. 
 Create random passwords using the password generator tool. Then click the password 
-area to copy the password to clipboard.
+area to copy the password to clipboard. 
 Create strong passwords today to protect your accounts online. With our service, 
 you can create strong passwords that are impossible to crack. Rest assured, use 
-our product!
+our product! 
 Create a strong password with a custom length and a combination of letters, numbers 
-and symbols.
+and symbols. 
 Generate passwords for all your sites in one go.
 
 Watch it in action Deploy: [Click Here](https://felipe-gomes-vicente.github.io/password-generator/)
